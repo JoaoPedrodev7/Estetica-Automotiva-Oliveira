@@ -519,19 +519,6 @@ ul {
   font-size: 1.05rem;
 }
 
-.gallery-note {
-  text-align: center;
-  color: var(--color-grey);
-  font-size: 0.85rem;
-  margin-top: 40px;
-}
-
-.gallery-note code {
-  background: var(--color-grey-light);
-  padding: 2px 8px;
-  border-radius: 4px;
-}
-
 /* Placeholder para imagens ausentes */
 .img-placeholder {
   width: 100%;
