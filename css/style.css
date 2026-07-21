@@ -314,15 +314,15 @@ ul {
 /* ---------- Serviços ---------- */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 22px;
 }
 
 .service-card {
   position: relative;
   background: var(--color-grey-light);
   border-radius: var(--radius);
-  padding: 34px 28px;
+  padding: 24px 20px;
   transition: transform var(--transition), box-shadow var(--transition);
   border: 1px solid transparent;
 }
@@ -333,25 +333,25 @@ ul {
 }
 
 .service-card__icon {
-  font-size: 2.2rem;
-  margin-bottom: 16px;
+  font-size: 1.8rem;
+  margin-bottom: 12px;
 }
 
 .service-card h3 {
   font-family: var(--font-title);
-  font-size: 1.25rem;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
 }
 
 .service-card p {
   color: #555;
-  font-size: 0.95rem;
-  margin-bottom: 18px;
+  font-size: 0.88rem;
+  margin-bottom: 14px;
 }
 
 .service-card__price {
   font-family: var(--font-title);
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--color-red);
 }
